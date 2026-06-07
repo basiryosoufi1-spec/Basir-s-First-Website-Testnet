@@ -1,0 +1,267 @@
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skill</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="./style.css">
+ </head>
+ <body class="w-full">
+
+   <div class="" id="div-on-top">
+   
+   </div>
+  
+   <header class="w-full h-[50px] hover:h-[80px] cursor-pointer trasition-all duration-300 flex items-center justify-space-around gap-4 sticky top-[0px] bg-gray-700 z-10">
+       
+      <div class="w-[25%] h-full relative flex items-center justify-center bg-gray-700">
+         <img src="../../Phtoes/my soft.jpg" alt="my photo" class="w-[40px] hover:w-[70px] h-[45px] hover:h-[75px] rounded-[50%] transition-all duration-300 z-4">
+      </div> 
+
+      <ul class="w-[75%] h-full hidden items-center justify-evenly text-[20px] font-semibold sm:flex bg-gray-700 text-white">
+         <li>
+            <a href="/" class="hover:text-[23px] hover:font-bold hover:text-green-500  ">
+               Home
+            </a>
+         </li>
+         <li>
+            <a href="../About ME/AboutMe.html" class="hover:text-[23px] hover:font-bold hover:text-green-500  ">
+               About Me
+            </a>
+         </li>
+         <li>
+            <a href="./My Skills" class="hover:text-[23px] hover:font-bold hover:text-green-500  ">
+               My skills
+            </a>
+         </li>
+      </ul>
+
+      <nav class="mobile-nav sm:hidden w-full h-full absolute bg-gray-700">
+
+         <div class="hambergar w-[50px] h-[50px] absolute right-[20px] top-[50%]">
+            <span>
+
+            </span>
+         </div>
+
+         <ul class="mobile_nav_ul absolute top-[100%] left-[50%] w-[400px] bg-gray-700/40 backdrop-blur-[10px] flex flex-col items-center justify-center gap-[10px] transition-all duration-400 rounded-b-[5px] ">
+
+            <li class="w-[300px] h-[50px] flex items-center justify-center">
+               <a href="/" class="w-full h-full bg-gray-800/70 p-[10px] rounded-[3px] rounded-tr-[20px] rounded-bl-[20px] text-[20px] text-center font-semibold hover:rounded-[3px] hover:rounded-tl-[20px] hover:rounded-br-[20px] transition-all duration-300">
+                  Home
+               </a>
+            </li>
+
+            <li class="w-[300px] h-[50px] flex items-center justify-center ">
+               <a href="../About ME/AboutMe.html" class="w-full h-full bg-gray-800/70 p-[10px] rounded-[3px] rounded-tr-[20px] rounded-bl-[20px] text-[20px] text-center font-semibold hover:rounded-[3px] hover:rounded-tl-[20px] hover:rounded-br-[20px] transition-all duration-300">
+                  About Me
+               </a>
+            </li>
+            <li class="w-[300px] h-[50px] flex items-center justify-center ">
+               <a href="./My Skills.html" class="w-full h-full bg-gray-800/70 p-[10px] rounded-[3px] rounded-tr-[20px] rounded-bl-[20px] text-[20px] text-center font-semibold hover:rounded-[3px] hover:rounded-tl-[20px] hover:rounded-br-[20px] transition-all duration-300">
+                  My Skills
+               </a>
+            </li>
+         </ul>
+
+      </nav>
+
+   </header>
+
+   <main class="w-full bg-gray-900">
+      <section class="w-full flex flex-col items-center justify-start gap-8 pt-[40px] pb-[40px]">
+
+         <h1 class="firs-se-h1 text-[30px] font-bold text-white text-center p-[20px]">
+            thanks for Choosing us! <br>
+            I am A Computre User And Researcher on that eria
+         </h1>
+
+         <p class="firt-sec-txt text-[20px] font-semibold text-white w-[350px] sm:w-[600px] md:w-[700px] lg:w-[900px] xl:w-[1100px] p-[15px] text-justify md:text-center ">
+            as I gived You Information about my career and how I Start and Working with computer, Now I wanna expand the parts like:Which skill I have , How I started and soon.
+         </p>
+
+         <div class="w-full h-[fit-content] sm:h-[170px] md:h-[200px] lg:h-[220px] relative bottom-[10px] md:bottom-[30px] flex  items-center justify-around gap-2" style="flex-wrap: wrap;">
+
+            <span class="cards size-[120px] sm:size-[150px] md:size-[180px] lg:size-[200px] bg-gra-linear rounded-lg rounded-4 flex flex-col items-center justify-around p-2">
+               <img src="../../Phtoes/www.png" alt="Web Design Logo" class="size-[50px] sm:size-[70px] md:size-[90px] rounded-[10px] shadow-[0px_0px_7px_3px_black] ">
+               <h1 class="font-bold  text-[12px] sm:text-[16px] md:text-[20px]">Web Design</h1>
+               <p class="text-center text-[12px] sm:text-[16px] md:text-[20px]">Learning JS</p>
+            </span>
+            <span class="cards size-[120px] sm:size-[150px] md:size-[180px] lg:size-[200px] bg-gra-linear rounded-lg rounded-4 flex flex-col items-center justify-around p-2">
+               <img src="../../Phtoes/linux.PNG" alt="linux logo photo" class="size-[50px] sm:size-[70px] md:size-[90px] rounded-[10px] shadow-[0px_0px_7px_3px_black] ">
+               <h1 class="font-bold  text-[12px] sm:text-[16px] md:text-[20px]">Linux OS</h1>
+               <p class="text-center text-[12px] sm:text-[16px] md:text-[20px]">learning Ubunto</p>
+            </span>
+            <span class="cards size-[120px] sm:size-[150px] md:size-[180px] lg:size-[200px] bg-gra-linear rounded-lg rounded-4 flex flex-col items-center justify-around p-2">
+               <img src="../../Phtoes/Graphic.PNG" alt="graphic logo photo" class="size-[50px] sm:size-[70px] md:size-[90px] rounded-[10px] shadow-[0px_0px_7px_3px_black] ">
+               <h1 class="font-bold  text-[12px] sm:text-[16px] md:text-[20px]">Graphic Design</h1>
+               <p class="text-center text-[12px] sm:text-[16px] md:text-[20px]">mostlly work With Photoshope</p>
+            </span>
+            <span class="cards size-[120px] sm:size-[150px] md:size-[180px] lg:size-[200px] bg-gra-linear rounded-lg rounded-4 flex flex-col items-center justify-around p-2">
+               <img src="../../Phtoes/Blockchaiin.PNG" alt="Clockchian logo photo" class="size-[50px] sm:size-[70px] md:size-[90px] rounded-[10px] shadow-[0px_0px_7px_3px_black] ">
+               <h1 class="font-bold  text-[12px] sm:text-[16px] md:text-[20px]">Blockchain</h1>
+               <p class="text-center text-[12px] sm:text-[16px] md:text-[20px]">Blockchain Searching</p>
+            </span>
+         
+         </div>
+      </section>
+
+      <hr class="w-full border-[1px] border-white border-dotted">
+
+      <section class="WebDesign-skill-info-se w-full flex flex-col items-center justify-start p-[20px] md:p-[50px] gap-4"> 
+         <h2 class="web-graph-logos h-[fit-content] text-[18px] sm:text-[30px] md:text-[40px] font-bold p-[10px_30px] bg-white rounded-lg">
+            <div class="w-full h-[70px] flex items-start justify-around">
+               <img src="../../Phtoes/www.png" alt="www.logo" class="max-w-[30%] sm:max-w-[15%] max-h-full">
+               <img src="../../Phtoes/www.png" alt="www.logo" class="max-w-[30%] sm:max-w-[15%] max-h-full">
+               <img src="../../Phtoes/www.png" alt="www.logo" class="max-w-[30%] sm:max-w-[15%] max-h-full">
+            </div>
+            this part is Web Design Section skill
+         </h2>
+
+         <div class="webdescontianer w-[90%] h-[400px] overflow-hidden bg-white relative rounded-[10px] text-[14px] md:text-[20px] font-[600] bg-gra-linear text-justify p-8 ">
+            So lets come in Web Design section I Will Explain You how I start? , whay did I started? and how much I learned , have info in this eria? I will tlod you that why I chosed this eria
+            <br>
+            <strong class="underline text-gray-900" >how I started:</strong> 
+            <br> 
+            When I got information about computer I crosse with an importent thing that was "programming" I researched and every one sayed that python is the best language, When I started learning python with my self I couldn't cath any thing because I didn't Knew what Am I doing? just coding without any specific result, then again I searched deeper I founded that I AM in app progrmming eria and found that Web Design Is also agood eria and Web Design is  alittle easier for beginners then the app Devoluping ... then I started 'html' for the first it was like working with "windows's Notpad" because it doesn't had any stayle, when I was Learning "css" It become better to chache the Web Designing<br>
+            <strong class="underline text-gray-900" >Why I started:</strong>  
+            <br> <span class="text-gray-900 underline">the first reason</span> this work mostlly don't have specific eria from home other country or in travels and this option is the importent one that i like this work, because In the chiled and youngest peroud i don't have any longway travels this changed to a Nodule for me and I wanna Avenge from that peroud, mabey this have lessvalue for you but for me it is importent.
+            <br>
+            <span class="text-gray-900 underline">the second reason:</span> this is easy to learn! so why it is easy to learn? because every changes that you bring for your Document you can see that changes live this is also a good option that the languages of this eria are interprater.
+            <br>
+            <strong class="underline text-gray-900" >What Level Am I in it:</strong> 
+            Now I am Learning the Js language in this eria so if I learn this importent language it will help Me, first to know the logic of the programming languages, then JS language changed to an importent programming language in computer world and it is also so populer between all the programmers and About The level in this eria , I must tell you that in all computer world we don't have the 100% knowing, some thing because all of them are so wide eria and Web Design Is also Have The Most Wide Eria.
+            <br>
+            <br> 
+            <span class="alert w-full h-[50px] bg-cyan-500 absolute bottom-[0px] left-0 text-black flex items-center justify-center font-semibold transition-all duration-300">
+              tap to change red more Mode
+            </span>
+         </div>
+
+      </section>
+      
+      <hr>
+      
+      <section class="linux-skill-sec w-full flex flex-col items-center justify-start p-[20px] md:p-[50px] gap-4">
+
+         <h2 class="Linux-h2 h-[fit-content] w-[fit-content] text-[18px] sm:text-[30px] md:text-[40px] font-bold p-[10px_30px] bg-white rounded-lg flex flex-col items-center justify-around gap-4">
+
+            <div class="w-full flex items-started justify-around ">
+               <img src="../../Phtoes/linux.PNG" alt="Linux Part" class="max-w-[30%] sm:max-w-[15%] max-h-full rounded-[40px]">
+               <img src="../../Phtoes/linux.PNG" alt="Linux Part" class="max-w-[30%] sm:max-w-[15%] max-h-full rounded-[40px]">
+               <img src="../../Phtoes/linux.PNG" alt="Linux Part" class="max-w-[30%] sm:max-w-[15%] max-h-full rounded-[40px]">
+            </div>
+
+            this part is Linux Skill section 
+         </h2>
+
+         <div class="about-linux-info w-[90%] h-[200px] bg-gra-linear overflow-hidden text-[14px] sm:text-[20px] p-8 pb-[60px] text-justify text-white rounded-lg cursor-pointer relative font-semibold">
+            In this section I wanna tell You that why I wanted or going to learn Linux and I want to give you iformation alittle more about linux: 
+            <br>
+            you can Take full information about linux by searching in <a href="https://google.com" class="underline text-gray-900">"Click Me, go to search"</a> and give info about linux, so this OS have it's own user or lover in all coutries. then why And how i started this Operating system? <br> 
+            by defults most of the users of computer are in "windows OS" but by there needed or wants they change there OS to one of the linux distribution like "kali for syber Security" "Ubunto Server for server" and just "Ubunto for simple works like windows" and we have alot's of distribution from linux an most of them is for deferent works, one of the butifull part of most linux distributions are open source there main code that os was built on it are free and change able by users and the most option that make linux populer is that Linux operation system is open sources, one of the world most importent mobile OS which is "Andriod" it's Kernal is Linux Kernel that we are all use from them. so this was alittle info about linux let's come to our questions.
+            <h3 class="underline text-[20px] font-bold"> Why I started linux?</h3>
+            I like the linux terminal interface and also I want to Learn an Open source and free Operating system. it is populer and usefull and free operating system between Devolupers... ,  I don't Want give you more info about this OS if you want to learn and search about this operating system then search about it in WEB or google.  
+            <span class="linuxalert w-full h-[50px] bg-cyan-600 absolute bottom-[0px] left-[0px] text-[20px] text-white font-semibold flex items-center justify-center">
+               tap to read more
+            </span>
+         </div>
+      </section>
+
+      <hr>
+
+      <section class="graphic-skill-sec w-full flex flex-col items-center justify-start p-[20px] md:p-[50px] gap-4">
+
+         <h2 class="web-graph-logos h-[fit-content] w-[fit-content] text-[18px] sm:text-[30px] md:text-[40px] font-bold p-[10px_30px] bg-white rounded-lg flex flex-col items-center justify-around gap-4">
+            this part is Graphic section part 
+         
+            <div class="w-full flex items-center justify-around p-[10px_25px]">
+               <img src="../../Phtoes/Graphic.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+               <img src="../../Phtoes/Graphic.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+               <img src="../../Phtoes/Graphic.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+            </div>
+         
+         </h2>
+
+         <div class="about-graphic-skill text-[18px] sm:text-[20px] w-[90%] bg-gra-linear p-8 font-semibold text-justify rounded-lg"> 
+            Graphic Design: I gived you information about my self and how a learned the graphic Design tools, then Now I also repeate some part of that information: I hade a photo graphy Shope About 2 years ago in Photo Graphy Shope I learned How to work With Graphic tools like PS(PhotoShope) Now I also work with those Tools and for Me that I am learning the Web Design it is neccessry To also be A graphic Designer but here is A problem for me that I just can work with tools , I can't Design Prefectlly But it is More importent that I can Improve My Graphic Skills, I am working and seeying more Templates To make my mind ready For Designing and creativity  
+         </div>
+      </section>
+      
+      <hr>
+
+      <section class="block-skill-sec w-full flex flex-col items-center justify-start p-[20px] md:p-[50px] gap-4 ">
+
+         <h2 class="Linux-h2 h-[fit-content] w-[fit-content] text-[18px] sm:text-[30px] md:text-[40px] font-bold p-[10px_30px] bg-white rounded-lg flex flex-col items-center justify-around gap-4">
+            This part is Blockchian section part
+
+            <div class="w-full flex items-center justify-around p-[10px_25px]">
+               <img src="../../Phtoes/Blockchaiin.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+               <img src="../../Phtoes/Blockchaiin.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+               <img src="../../Phtoes/Blockchaiin.PNG" alt="graphic photo" class="max-w-[30%] sm:max-w-[15%] rounded-[20px]">
+            </div>
+
+         </h2>
+
+         <div class="about-blockchain-info h-[400px] w-[90%] bg-gra-linear overflow-hidden text-[14px] sm:text-[20px] p-8 pb-[60px] text-justify text-white rounded-lg cursor-pointer relative font-semibold">
+            in this eria I wanna Tell you About , how I come in Blockchain's Knowledge my meanse in it's good parts not the fack smart contracts that all the days are broken the name of Blockchain.
+            <br>
+            my searhing about this eria was started around 2 or 3 years ago one person told me about an smart contract that I must payed 100$ to start that work, when I researched about that smart contract become a fack bissness then about one year ago that smart contract fall down, I searched smart contract more I found that all smart contracts have a specific programming language that most depend on blockchian that they poblished the most populer progrmming language in this eria is "solodity" this programming language whiche is specially for writting smart contract and that is a powerfull language, for working that programming language I must searched more agian working with that language can be esier when I know the logic of programming then i can migrate or change my eria to every one I like or I need, and again the language that i Will Learn first is JavaScript. so when I told you that I Know about the blockchain it doesn't mean that I can trade or other things I just taked Information About smart Contracts, so I have skill in this eria but it is to many low as I told you that the computer world don't have the 100 point, I am so happy that i have info about these parts, but here is the point that i must think what should I do and become profict on that eria, after times I I choosed my eria and that is Web Design and Programming.
+            
+            <span class="bl_ch_alert w-full h-[50px] bg-cyan-600 absolute bottom-0 left-0 flex items-center justify-center ">
+               tap to read More
+            </span>
+         </div>
+
+      </section>
+
+   </main>
+
+
+   <footer class="w-full max-h-[fit-content] md:max-h-[250px] flex flex-col sm:flex-row gap-8 items-center justify-center sm:justify-around p-8">
+
+      <div class="Contact_part">
+         <h3 class="text-[20px] font-bold ">
+            Contact Unit...
+         </h3>
+
+         <ul>
+               <li class="Contact_on_facebook text-[18px] font-semibold">
+               www.facebook.com/"Basir Yosoufi"   
+               </li>
+               <li class="Contact_on_whatsapp text-[18px] font-semibold">
+                  +93783102871 
+               </li>
+               <li class="Contact_on_Email text-[18px] font-semibold">
+                  basiryosoufi@gmail.com   
+               </li>
+               <li class="Contact_on_phone text-[18px] font-semibold">
+                  0783102871 / 0770050571  
+               </li>
+         </ul>
+
+      </div>
+      <!-- =============== -->
+      <div class="minue_part"> 
+         <h3 class="text-[20px] font-bold">Goto...Minu</h3>
+         <ul>
+               <li>
+                  <a href="/" class="underline text-[20px] font-semibold">Home</a>
+               </li>
+               <li>
+                  <a href="../About ME/AboutMe.html" class="underline text-[20px] font-semibold">About ME</a>
+               </li>
+               <li>
+                  <a href="./My Skills.html" class="underline text-[20px] font-semibold">MY Skill</a>
+               </li>
+         </ul>
+      </div>
+
+   </footer>
+
+   <script src="./script.js"></script>
+
+</body> 
+</html> 
